@@ -1,1 +1,1 @@
-Hello, here is the website assignement asked by ITSligo.
+Hello, here is the website assessment asked by ITSligo.
