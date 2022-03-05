@@ -1,9 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const linksForHome = 
-[ {url: 'https://www.itsligo.ie/' , text : 'IT Sligo Home Page'},
-{ url: 'https://www.irishtimes.com/', text : 'The Irish Times'},
-{ url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', text : "An amazing action here"}];
+[ {url: 'https://www.cancer.ie/' , text : 'Make donation against cancer here'},
+  {url: 'https://www.youtube.com/channel/UCFAiFyGs6oDiF1Nf-rRJpZA' , text : 'Technoblade'}];
 
 
 router.get('/', function (req, res) {

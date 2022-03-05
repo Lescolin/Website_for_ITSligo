@@ -20,16 +20,13 @@ router.get('/', (req,res) =>
     res.render('listing', { listing: data }
 ));
 
-router.get('/addnew', (req, res) =>
+router.get('/account', (req, res) =>
 {
-    var fname = req.query.firstname;
-    var sname = req.query.surname;
-    console.log('Date entered ' + fname + ' ' + sname)
     res.render('personform')
 }
 )
 
-router.post('/addnew', (req, res) =>
+router.post('/account', (req, res) =>
 {
     console.log("Data sent via post")
     var fname = req.body.firstname;
