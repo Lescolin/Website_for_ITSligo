@@ -30,4 +30,7 @@ router.get('/technoblade', (req, res) => {
     res.render('technoblade');
 })
 
+router.get('/discussion', (req, res) => {
+    res.render('discussion');
+})
 module.exports = router;
