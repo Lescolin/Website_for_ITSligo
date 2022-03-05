@@ -41,11 +41,6 @@ app.set('view engine', 'handlebars');
 app.use('/', home);
 app.use('/staff', staff);
 
-app.get('/technoblade',  (req, res) => {
-    res.type('text/plain');
-    res.send('Subscribe to Technoblade and donate to research against cancer');
-});
-
 // // 404 catch-all handler (middleware)
 app.use(function (req, res, next) {
     res.status(404);

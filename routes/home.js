@@ -26,4 +26,8 @@ router.get('/contact',  (req, res) => {
     res.render('contact');
 });
 
+router.get('/technoblade', (req, res) => {
+    res.render('technoblade');
+})
+
 module.exports = router;
