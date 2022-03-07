@@ -10,7 +10,7 @@ router.get('/', function (req, res) {
      
     if (req.signedCookies.tracking){
         var dateLastVisit = req.signedCookies.tracking;
-        var message = "Welcome back, you last visited on : " + dateLastVisit;
+        var message = "Welcome back, you last visited on : " + dateLastVisit + "\n \n";
     }
 
     var currentDate = new Date();
