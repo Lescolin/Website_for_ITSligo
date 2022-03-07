@@ -1,16 +1,16 @@
 const express = require('express');
 const router = express.Router();
-var data = {"foil" : { "name": "foil",
+var data = {"Roy" : { "name": "Roy",
         "dob": "01/01/1998",
         "imageurl": "/images/foilimage1.png",
         "hobbies": ["Jokes", "Gags", "Stand up", "Watch himself in a mirror and laugh", "Take care of Moustache"]},
 
-    "david" : { "name": "david",
+    "David" : { "name": "David",
         "dob": "01/01/-100",
         "imageurl": "/images/david.png",
         "hobbies": ["Bully Goliath", "Take a shot"]},
 
-    "goliath" : { "name": "goliath",
+    "Goliath" : { "name": "Goliath",
         "imageurl": "/images/goliath.png",
         "hobbies": ["Eat", "Try to be scary"]
 }};
